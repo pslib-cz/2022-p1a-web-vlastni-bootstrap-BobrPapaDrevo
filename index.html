@@ -37,7 +37,11 @@
           <div class="py-5 container">
             <div class="col-lg-6 col-md-8 mx-auto">
               <h2><b>ILoveBeavers</b></h2>
-              <p class="lead text-center">Hi! I'm a 15-year-old guy who loves coding, videogames and beavers. I have experience with lua and the roblox platform in general, some experience in JavaScript and TypeScript, and I've even touched languages like python. I've made a lot of things over the years, but I have a bad habbit of not finishing stuff.<br><br>If you have any questions regarding anything, feel free to contact me preferably on discord or twitter. You can also send me an email, but who uses emails these days.</p>
+              <p id="description" class="lead text-center">Hi! I'm a x-year-old guy who loves coding, videogames and beavers. I have experience with lua and the roblox platform in general, some experience in JavaScript and TypeScript, and I've even touched languages like python. I've made a lot of things over the years, but I have a bad habbit of not finishing stuff.<br><br>If you have any questions regarding anything, feel free to contact me preferably on discord or twitter. You can also send me an email, but who uses emails these days.</p>
+              <script>
+                    const age = Math.floor((Date.now()/1000 - 1185084000)/3600/24/365.25)
+                    document.getElementById("description").innerHTML = "Hi! I'm a "+age+"-year-old guy who loves coding, videogames and beavers. I have experience with lua and the roblox platform in general, some experience in JavaScript and TypeScript, and I've even touched languages like python. I've made a lot of things over the years, but I have a bad habbit of not finishing stuff.<br><br>If you have any questions regarding anything, feel free to contact me preferably on discord or twitter. You can also send me an email, but who uses emails these days."
+              </script>
             </div>
           </div>
         </section>
